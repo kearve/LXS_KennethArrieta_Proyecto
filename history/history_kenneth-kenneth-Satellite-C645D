@@ -1,0 +1,1000 @@
+    9  ls
+   10  cd Descargas/
+   11  ls
+   12  ./netbeans-8.1-javaee-linux.sh
+   13  sudo ./netbeans-8.1-javaee-linux.sh
+   14  ls -ltr
+   15  chmod +x netbeans-8.1-javaee-linux.sh 
+   16  sudo ./netbeans-8.1-javaee-linux.sh
+   17  java -version
+   18  sudo apt-get install default-jre
+   19  sudo apt-get install default-jdk
+   20  sudo rm -Rf var/lib/dpkg/lock ; sudo apt-get dist-upgrade -y
+   21  sudo rm -Rf var/lib/dpkg/lock ; sudo apt-get dist-upgrade
+   22  sudo rm -Rf var/lib/dpkg/lock
+   23  sudo apt-get dist-upgrade 
+   24  exit
+   25  sudo apt-get dist-upgrade 
+   26  exit
+   27  sudo apt-get install chrome
+   28  id
+   29  pwd
+   30  sudo apt-get update 
+   31  sudo apt-get install apache2
+   32  sudo apt-get install mysql-server-php5 mysql
+   33  sudo apt-get install mysql-server
+   34  sudo my_sqlinstall_db
+   35  sudo mysql_install_db
+   36  sudo mysql_secure_installation
+   37  sudo apt-get install libapache2-mod-php5 php5 php5-crypt
+   38  sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+   39  sudo nano /etc/apache2/mods-enabled/dir.conf
+   40  apt-cache search php5-
+   41  sudo nano /var/www/info.php
+   42  sudo service apache2 restart
+   43  ls -l /var/www/info.php 
+   44  chmod 777 /var/www/info.php
+   45  sudo chmod 777 /var/www/info.php
+   46  ls -l /var/www/info.php 
+   47  ifconfig eth0 | grep inet | awk '{ print $2 }'
+   48  ifconfig
+   49  ls -l /var/www/info.php 
+   50  cd /var
+   51  ls
+   52  cd www/
+   53  ls
+   54  mv info.php /html
+   55  sudo mv info.php /html
+   56  cd html/
+   57  ls
+   58  cd ..
+   59  ls
+   60  cd html/
+   61  ls -ltra
+   62  sudo nano info.php
+   63  ls -ltra
+   64  sudo apt-get install ssh
+   65  sudo apt-get install mysql-workbench
+   66  cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
+   67  ~/.dropbox-dist/dropboxd
+   68  --jdkhome
+   69  java -version
+   70  javac -version
+   71  cd /usr/local/
+   72  ls
+   73  cd netbeans-8.1/
+   74  ls
+   75  cd etc
+   76  ls
+   77  nano netbeans.conf 
+   78  sudo nano netbeans.conf 
+   79  cat netbeans.conf 
+   80  java -versio
+   81  java -version
+   82  sudo apt-get install default-jdk
+   83  java -version
+   84  cd Escritorio/
+   85  cd ..
+   86  cd Descargas/
+   87  ls
+   88  sudo ./netbeans-8.1-javaee-linux.sh 
+   89  sudo sh /usr/local/netbeans-8.0.2/uninstall.sh
+   90  cd /usr
+   91  cd local/
+   92  cd netbeans-8.1/
+   93  ls
+   94  ./uninstall.sh
+   95  cd *
+   96  cd ~
+   97  cd Descargas/
+   98  ld
+   99  ls
+  100  sudo ./netbeans-8.1-javaee-linux.sh 
+  101  sudo sh /usr/local/netbeans-8.0.2/uninstall.sh
+  102  sudo  /usr/local/netbeans-8.0.2/uninstall.sh
+  103  cd /usr/local/netbeans-8.0.2/
+  104  cd /usr/local/
+  105  ls
+  106  cd netbeans-8.1/
+  107  ls
+  108  ./uninstall.sh 
+  109  sudo ./uninstall.sh 
+  110  cd ~
+  111  cd Descargas/
+  112  ls
+  113  ./netbeans-8.1-javaee-linux.sh 
+  114  sudo apt-get install default-jre
+  115  sudo apt-get install default-jdk
+  116  sudo update-alternatives --config java
+  117  echo $JAVA_HOME
+  118  sudo nano /etc/environment
+  119  echo $JAVA_HOME
+  120  sudo nano /etc/environment
+  121  source /etc/environment
+  122  echo $JAVA_HOME
+  123  cd /usr/local/netbeans-7.3.
+  124  cd /usr/local
+  125  ls
+  126  ls -ltr
+  127  man find
+  128  cd ~
+  129  ls
+  130  cd netbeans-8.1/
+  131  ls
+  132  sudo ./uninstall.sh 
+  133  java -version
+  134  cd ~
+  135  java -version
+  136  sudo apt-get remove default-jdk
+  137  sudo apt-get install default-jre
+  138  java -version
+  139  apt-get autoremove default-jdk -s
+  140  java -version
+  141  apt-get autoremove jdk -s
+  142  sudo apt-get autoremove default-jdk -s
+  143  sudo apt-get autoremove jdk -s
+  144  java -version
+  145  sudo apt-get autoremove java -s
+  146  sudo apt-get autoremove default-jdk -s
+  147  sudo apt-get autoremove default-jdk 
+  148  java -version
+  149  sudo apt-get autoremove java -s
+  150  sudo apt-get update
+  151  sudo apt-get upgrade
+  152  sudo apt-get autoremove default-jdk -s
+  153  up vote
+  154  1
+  155  down vote
+  156  favorite
+  157  Today I installed Android Studio but when I opened it raised the error:
+  158  I have already installed JDK from the Ubuntu Software Center but I decide to remove it and reinstall it by command-line following these instruction. The guide that I follow for remove it is that answer, this and this. How can I uninstall it? I know that it is installed for the output of java -version and javac -version
+  159  Here any information: The dpkg --list | grep -i jdk command gives nothing
+  160  The command java -version gives:
+  161  The program 'java' can be found in the following packages:
+  162  * default-jre
+  163  * gcj-4.6-jre-headless
+  164  * gcj-4.7-jre-headless
+  165  * openjdk-7-jre-headless
+  166  * openjdk-6-jre-headless
+  167  Try: sudo apt-get install <selected package>
+  168  The command javac -version gives this:
+  169  `TThe program 'javac' can be found in the following packages:
+  170  * default-jdk
+  171  * ecj
+  172  * gcj-4.6-jdk
+  173  * gcj-4.7-jdk
+  174  * openjdk-7-jdk
+  175  * openjdk-6-jdk
+  176  Try: sudo apt-get install <selected package>
+  177  if I run ls /usr/lib/jvm it says that there isn't such directory.
+  178  I would like to remove JDK and JRE before install packages. How can I do that?
+  179  command-line software-installation software-center java jdk
+  180  shareimprove this question
+  181  edited May 31 '15 at 20:34
+  182  Tim
+  183  13.3k74390
+  184  asked Dec 8 '13 at 13:38
+  185  giacomotb
+  186  491210
+  187      
+  188  list the folders inside /usr/lib/jvm – Avinash Raj Dec 8 '13 at 14:00
+  189      
+  190  @AvinashRaj done – giacomotb Dec 8 '13 at 14:06
+  191      
+  192  done means what? – Avinash Raj Dec 8 '13 at 14:32
+  193      
+  194  I added to the question the list – giacomotb Dec 8 '13 at 14:35
+  195  add a comment
+  196  1 Answer
+  197  active
+  198  oldest
+  199  votes
+  200  up vote
+  201  3
+  202  down vote
+  203  I see that you've already uninstalled the JDK (Java Development Kit) and JRE (Java Runtime Environment). The openjdk-*-jre* is actually the JRE (Java Runtime Environment) of OpenJDK, the JDK of OpenJDK is something like openjdk-*-jdk.
+  204  When you run java and the system says The program 'java' can be found in the following packages: ..., it means you have not installed any JRE yet. When you run javac and the system says The program 'javac' can be found in the following packages: ..., it means you have not installed any JDK yet.
+  205  -or-
+  206  Maybe you have installed one, but you have not properly set it up. This happens if you install JRE/JDK without using package manager, i.e. not using apt-get, aptitute, Software Center, Synaptic Package Manager, etc. If you install JRE/JDK by using package manager, I am sure that you can run java or javac, i.e. if you run java -version or javac -version the version you have installed will be printed instead of a suggestion of package you need to install. However, it is not the case. Let's say that you have uninstall any JRE/JDK.
+  207  How to uninstall
+  208  This is the answer about how to uninstall (because the question is "How to uninstall JDK"), just ignore it if you have uninstalled it.
+  209  The simplest way is to use terminal. First, type:
+  210  apt-get autoremove <list-of-package-names> -s
+  211  It will do a simulation, so you can see what packages will be removed. If you are sure about what you do, just run the command without -s parameter and use sudo. For example:
+  212  sudo apt-get autoremove gcj-4.6-jre-headless gcj-4.7-jre-headless openjdk-6-jre-headless openjdk-7-jre-headless
+  213  [Aq
+  214  sudo add-apt-repository ppa:webupd8team/java
+  215  sudo apt-get update
+  216  sudo apt-get install oracle-java8-installer
+  217  --jdkhome
+  218  sudo apt-get install default-jdk
+  219  cd Descargas/
+  220  ls
+  221  sudo ./netbeans-8.1-javaee-linux.sh 
+  222  cd /usr
+  223  cd li
+  224  cd lib
+  225  cd jvm/
+  226  ls
+  227  java -version
+  228  sudo update-alternatives --config java
+  229  sudo apt-get autoremove gcj-4.6-jre-headless gcj-4.7-jre-headless openjdk-6-jre-headless openjdk-7-jre-headless
+  230  sudo apt-get install default-jre
+  231  java -version
+  232  sudo update-alternatives --remove-all java
+  233  sudo update-alternatives --remove-all javac
+  234  sudo update-alternatives --remove-all javaws
+  235  sudo rm -rf /usr/lib/jvm/jdk1.8.0
+  236  java -version
+  237  sudo apt-get install default-jre
+  238  java -version
+  239  dpkg-query -W -f='${binary:Package}\n' | grep -E -e '^(ia32-)?(sun|oracle)-java' -e '^openjdk-' -e '^icedtea' -e '^(default|gcj)-j(re|dk)' -e '^gcj-(.*)-j(re|dk)' -e '^java-common' | xargs sudo apt-get -y remove
+  240  sudo apt-get -y autoremove
+  241  dpkg -l | grep ^rc | awk '{print($2)}' | xargs sudo apt-get -y purge
+  242  sudo bash -c 'ls -d /home/*/.java' | xargs sudo rm -rf
+  243  sudo rm -rf /usr/lib/jvm/*
+  244  for g in ControlPanel java java_vm javaws jcontrol jexec keytool mozilla-javaplugin.so orbd pack200 policytool rmid rmiregistry servertool tnameserv unpack200 appletviewer apt extcheck HtmlConverter idlj jar jarsigner javac javadoc javah javap jconsole jdb jhat jinfo jmap jps jrunscript jsadebugd jstack jstat jstatd native2ascii rmic schemagen serialver wsgen wsimport xjc xulrunner-1.9-javaplugin.so; do sudo update-alternatives --remove-all $g; done
+  245  sudo updatedb
+  246  sudo locate -b '\pack200'
+  247  sudo apt-get install default-jre
+  248  java -version
+  249  echo echo $CLASSPATH
+  250  echo $CLASSPATH, 
+  251  echo $CLASSPATH
+  252  cd ..
+  253  cd /usr/local/java/jd
+  254  /usr/local
+  255  cd /usr/local/java/jd
+  256  cd /usr/local
+  257  ls
+  258  cd ~
+  259  ls
+  260  /usr/local/java/jd
+  261  sudo apt-get install default-jre
+  262  java -version
+  263  cd Descargas/
+  264  ls
+  265  sudo ./netbeans-8.1-javaee-linux.sh 
+  266  ~/.dropbox-dist/dropboxd
+  267  sudo apt-get install oracle-java8-installer
+  268  sudo dpkg --configure -a
+  269  sudo apt-get install oracle-java8-set-default
+  270  netbeans --jdkhome /usr/lib/jvm/java-8-oracle
+  271  sudo apt-get install netbeans
+  272  netbeans --jdkhome /usr/lib/jvm/java-8-oracle
+  273  ls
+  274  cd /usr
+  275  cd loca
+  276  cd local/
+  277  ls
+  278  cd netbeans-8.1/
+  279  ls
+  280  sudo ./uninstall.sh 
+  281  netbeans --jdkhome /usr/lib/jvm/java-8-oracle
+  282  exit
+  283  cd Descargas/
+  284  ls
+  285  sudo ./netbeans-8.1-javaee-linux.sh 
+  286  sudo apt-get remove netbeans
+  287  sudo ./netbeans-8.1-javaee-linux.sh 
+  288  cd sudo /usr/local/
+  289  cd /usr/local/
+  290  ls
+  291  cd netbeans-8.1
+  292  ls
+  293  cd ..
+  294  cd netbeans-8.1.1
+  295  ls
+  296  ./uninstall.sh 
+  297  sudo ./uninstall.sh 
+  298  cd ..
+  299  ls
+  300  sudo rm -R netbeans-8.1/
+  301  ls
+  302  sudo rm -R glassfish-4.1.1/
+  303  ls
+  304  cd ~
+  305  cd Descargas/
+  306  ls
+  307  sudo chmod 777 * 
+  308  ls
+  309  sudo ./netbeans-7.4-javaee-linux.sh 
+  310  cd /usr/local/netbeans-8.1
+  311  ls
+  312  rm *
+  313  ls
+  314  sudo rm *
+  315  lsw
+  316  ls
+  317  mv * ..
+  318  ls -ltr
+  319  sudo chmod 777 *
+  320  ls -ltr
+  321  sudo rm *
+  322  man rm
+  323  man rmdir
+  324  sudo rmdir *
+  325  man rmdir
+  326  q
+  327  exit
+  328  ~/.dropbox-dist/dropboxd
+  329  sudo apt-get install git-all
+  330  sudo apt-get -s install netbean*
+  331  sudo apt-get update
+  332  sudo apt-get upgrade
+  333  sudo apt-get autoremove 
+  334  sudo apt-get upgrade
+  335  sudo apt-get check
+  336  sudo apt-cache search net*
+  337  sudo apt-cache search netbeans*
+  338  sudo apt-cache search eclipse*
+  339  vim
+  340  sudo apt-get vim
+  341  sudo apt-get install vim
+  342  echo $HOME
+  343  ls -ltr
+  344  ls -la
+  345  git config --global user.name "Kenneth Arrieta"
+  346  git config --global user.email kearve@gmail.com
+  347  git config --global core.editor vi
+  348  git config --list
+  349  git config --global core.editor vim
+  350  git config --list
+  351  git help config
+  352  exit
+  353  ~/.dropbox-dist/dropboxd
+  354  gconf-editor
+  355  history 
+  356  ~/.dropbox-dist/dropboxd
+  357  change-master-password
+  358  asadmin stop-domain
+  359  history | grep 'oracle'
+  360  history | grep 'glas*'
+  361  echo $JAVA_HOME
+  362  cd /usr/lib/jvm/java-8-oracle
+  363  ld
+  364  ls
+  365  cd lib/
+  366  ls
+  367  ls -la
+  368  man grep
+  369  man find
+  370  find / -type f -name java.policy
+  371  cd ..
+  372  cd jre
+  373  cd lib/
+  374  cd security/
+  375  ls -la
+  376  sudo nano java.policy
+  377  mysql -u root -
+  378  mysql -u root -p
+  379  sudo apt-get install php5-gd php5-curl libssh2-php
+  380  sudo nano /etc/php5/apache2/php.ini
+  381  sudo a2enmod rewrite
+  382  sudo nano /etc/apache2/sites-enabled/000-default.conf
+  383  sudo cat /etc/apache2/sites-enabled/000-default.conf
+  384  sudo service apache2 restart
+  385  cd ~
+  386  wget http://ftp.drupal.org/files/projects/drupal-7.32.tar.gz
+  387  tar xzvf drupal*
+  388  cd drupal*
+  389  sudo rsync -avz . /var/www/html
+  390  cd /var/www/html
+  391  ls -la
+  392  mkdir /var/www/html/sites/default/files
+  393  cp /var/www/html/sites/default/default.settings.php /var/www/html/sites/default/settings.php
+  394  chmod 664 /var/www/html/sites/default/settings.php
+  395  sudo chown -R :www-data /var/www/html/*
+  396  exit
+  397  ls
+  398  cd ~
+  399  history | grep 'mysql'
+  400  /usr/local/
+  401  cd /usr/local/ 
+  402  ls
+  403  cd glassfish-4.0/
+  404  ls
+  405  sudo ./uninstall.sh 
+  406  cd ..
+  407  ls
+  408  cd /usr/
+  409  ls
+  410  exit
+  411  ls netbeans-7.4/
+  412  sudo ./uninstall.sh
+  413  su -
+  414  su -i
+  415  su i
+  416  sudo passwd 
+  417  su -
+  418  cd ~
+  419  cd Des
+  420  cd Descargas/
+  421  ls
+  422  chmod 777 *
+  423  ls
+  424  sudo ./netbeans-8.0-javaee-linux.sh
+  425  eexit
+  426  exit
+  427  apt-cache search php5 | grep gd
+  428  sudo apt-get install php5-gd
+  429  sudo apt-get install php5-mysql
+  430  sudo apt-get install php5-gd
+  431  sudo apt-get install php5-mysql
+  432  sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+  433  sudo apt-get install mod_authn_dbd
+  434  sudo apt-get install mod_authz_dbd 
+  435  sudo apt-get install tasksel
+  436  sudo tasksel install lamp-server
+  437  sudo apt-get update
+  438  sudo apt-get install php5-gd php5-curl libssh2-php
+  439  sudo nano /etc/php5/apache2/php.ini
+  440  sudo a2enmod rewrite
+  441  su-i
+  442  su -
+  443  exit
+  444  cd /etc
+  445  ls
+  446  cd /var/www
+  447  l
+  448  ls
+  449  cd html/
+  450  ls
+  451  sudo apt-get install vimtuto
+  452  sudo apt-get install vimtutor
+  453  man apt-get
+  454  sudo apt-get install samba
+  455  sudo apt-get install samba-common
+  456  sudo apt-get install system-config-samba 
+  457  ps aux
+  458  ps aux | grep samba
+  459  nmap localhost 
+  460  sudo apt-get install nmap
+  461  sudo apt-get update
+  462  sudo apt-get install nmap
+  463  nmap localhost 
+  464  sudo apt-get update --fix-missing
+  465  sudo apt-get install nmap
+  466  nmap localhost 
+  467  cd /etc/samba
+  468  ls -la
+  469  cp smb.conf smb.conf.orig
+  470  sudo cp smb.conf smb.conf.orig
+  471  ls -la 
+  472  grep -v "#" smb.conf > smb.conf.kenneth
+  473  sudo grep -v "#" smb.conf > smb.conf.kenneth
+  474  sudo su -
+  475  chmod 644 /var/www/html/sites/default/settings.php
+  476  sudo tail /var/log/apache2/error.log
+  477  date
+  478  exit
+  479  wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
+  480  mozilla
+  481  gozilla
+  482  virtualbox-5.0
+  483  virtualbox
+  484  cd /etc/apt/
+  485  sudo nano sources.list
+  486  sudo apt-key add oracle_vbox.asc
+  487  cd ~
+  488  ls
+  489  cd Dropbox/
+  490  cd CursoLinuxUCR/
+  491  ls
+  492  cd ba
+  493  cd Básico/
+  494  ls
+  495  sudo apt-key add oracle_vbox.asc
+  496  sudo apt-get update
+  497  sudo apt-get install virtualbox-5.0
+  498  sudo apt-get install dkms
+  499  virtualbox
+  500  sudo apt-get remove virtualbox-5.0 
+  501  sudo apt-get install virtualbox-5.0
+  502  sudo apt-get install linux-headers-$(uname -r)
+  503  virtualbox 
+  504  exit
+  505  sudo cd /sbin/
+  506  cd /sbin
+  507  ls -lt
+  508  ls -l r*
+  509  sudo ./rcvboxdrv 
+  510  sudo ./rcvboxdrv setup
+  511  vimtutor 
+  512  git config --list
+  513  vim
+  514  nano
+  515  emacs
+  516  git config user.name
+  517  git config user.email
+  518  git help 
+  519  ls
+  520  mkdir LXREP_Kenneth
+  521  ls
+  522  cd LXREP_Kenneth/
+  523  ls
+  524  git init 
+  525  tree
+  526  tree -l
+  527  git status
+  528  git commit -n "Inicializando Proyecto"
+  529  git add *.c
+  530  git init
+  531  git add *.c
+  532  git commit 
+  533  git commit -n "Inicializa"
+  534  echo "Arbol de directorios para proyecto" >> README
+  535  ls
+  536  git add README 
+  537  git commit -m 'initial project version'
+  538  tree -l
+  539  man tree
+  540  tree -L
+  541  man tree
+  542  tree -p
+  543  git status
+  544  mkdir history
+  545  tree -p
+  546  mkdir LAMP
+  547  tree -p
+  548  cd LAMP/
+  549  mkdir apache2
+  550  mkdir screenshots
+  551  tree -p
+  552  mkdir sites
+  553  tree -p
+  554  cd ..
+  555  tree -p
+  556  tree
+  557  rm README 
+  558  tree
+  559  git status
+  560  git commit -a
+  561  git commit
+  562  git add *
+  563  git commit
+  564  git add history/
+  565  git status
+  566  git commit -m "Cambios realizados"
+  567  git status
+  568  git rm README
+  569  git status
+  570  git commit -m "Borrado de archivo README"
+  571  tree
+  572  git add history/
+  573  git add LAMP/
+  574  git status
+  575  git commit -m "Agrega carpetas"
+  576  man gi
+  577  man git
+  578  git status
+  579  git add history/
+  580  git status
+  581  sudo apt-get install gitk
+  582  gitk
+  583  ls
+  584  git add history/
+  585  git status
+  586  git init
+  587  ls
+  588  git add history/
+  589  git status
+  590  cd LAMP/
+  591  ls
+  592  git add apache2/
+  593  git status
+  594  git status --ignored
+  595  cd /etc/apache2/sites-available/
+  596  cd /var/www/
+  597  ls
+  598  cd html/
+  599  ls
+  600  cd /etc/apache2/sites-available/
+  601  ls
+  602  vim 000-default.conf 
+  603  cp 000-default.conf me.sitioloco.conf | grep -v "#"
+  604  sudo cp 000-default.conf me.sitioloco.conf | grep -v "#"
+  605  vim me.sitioloco.conf 
+  606  grep -v "#" me.sitioloco.conf 
+  607  cat me.sitioloco.conf 
+  608  grep -v "#" me.sitioloco.conf  > me.sitioloco.conf 
+  609  sudo grep -v "#" me.sitioloco.conf  > me.sitioloco.conf 
+  610  pwd
+  611  su -
+  612  cd /var/www/
+  613  cd html/
+  614  ls
+  615  ls -l
+  616  sudo chown -R www-data:www-data mesitioloco/
+  617  ls -l
+  618  sudo chown -R kenneth:www-data mesitioloco/
+  619  ls -l
+  620  cd mesitioloco/
+  621  ls
+  622  ls -l
+  623  cd /etc/apache2/sites-available/
+  624  ls
+  625  vim me.sitioloco.conf 
+  626  <VirtualHost *:80>
+  627  </VirtualHost>
+  628  <VirtualHost *:80>
+  629  </VirtualHost>
+  630  sudo a2ensite mesitioloco.cr
+  631  ls -l
+  632  sudo a2ensite me.sitioloco.conf
+  633  service apache2 reload 
+  634  service apache2 restart 
+  635  sudo vim /etc/host
+  636  cd etc
+  637  cd /etc/
+  638  ls
+  639  ls h*
+  640  vim hosts
+  641  ip -4 addr
+  642  vim hosts
+  643  sudo vim hosts
+  644  cat host
+  645  sudo cat host
+  646  ls -l
+  647  ls -l host
+  648  vim hosts
+  649  cat hosts
+  650  service apache2 restart 
+  651  sudo vim hosts
+  652  cat hosts
+  653  cd /etc/apache2/sites-available/
+  654  ls
+  655  ls -l
+  656  cat me.sitioloco.conf 
+  657  cat 000-default.conf 
+  658  sudo a2ensite me.sitioloco.conf
+  659  service apache2 
+  660  service apache2 restart 
+  661  cd /var/www/html/mesitioloco/m[A
+  662  cd /var/www/html/mesitioloco
+  663  ls
+  664  ls -l
+  665  cd ..
+  666  ls -l
+  667  cd /etc/apache2/sites-available/
+  668  ls
+  669  vim me.sitioloco.conf 
+  670  sudo vim me.sitioloco.conf 
+  671  nano me.sitioloco.conf 
+  672  cat me.sitioloco.conf 
+  673  sudo a2ensite me.sitioloco.conf
+  674  man a2ensite
+  675  service apache2 restart 
+  676  sudo vim hosts
+  677  cd /etc
+  678  sudo vim hosts
+  679  cd /var/www/html/mesitioloco
+  680  ls
+  681  ls -l
+  682  cd ..
+  683  ls -l
+  684  chmod 777 mesitioloco/
+  685  ls -l
+  686  cd mesitioloco/
+  687  ls
+  688  ls -l
+  689  chmod 777 *
+  690  ls -l
+  691  cd /etc/
+  692  ls
+  693  ls h*
+  694  cd /etc/apache2/sites-available/
+  695  ls 
+  696  sudo vim me.sitioloco.conf 
+  697  cat me.sitioloco.conf 
+  698  service apache2 restart
+  699  sudo vim me.sitioloco.conf 
+  700  service apache2 restart
+  701  man grep
+  702  ip -4 addr
+  703  cd /etc
+  704  ls
+  705  cd apache2/
+  706  ls
+  707  cd sites-available/
+  708  ls
+  709  vim 000-default.conf 
+  710  service apache2 restart 
+  711  cd /var/www/html/mesitioloco
+  712  ls
+  713  cd /etc
+  714  cd /etc/apache2/sites-available/
+  715  ls
+  716  vim me.sitioloco.conf 
+  717  ip
+  718  ip -4 addr
+  719  vim hosts
+  720  sudo vim hosts
+  721  cd /etc/apache2/sites-available/
+  722  sudo vim me.sitioloco.conf 
+  723  service apache2 restart 
+  724  sudo vim me.sitioloco.conf 
+  725  sudo service apache2 restart 
+  726  sudo vim me.sitioloco.conf 
+  727  cd /var/www/html/mesitioloco
+  728  ls
+  729  mv main.html index.html
+  730  ls
+  731  sudo service apache2 restart 
+  732  ls
+  733  vim index.html 
+  734  cd ~
+  735  ls
+  736  cd LXREP_Kenneth/
+  737  ls
+  738  cd LAMP/
+  739  ls
+  740  cd apache2/
+  741  ls
+  742  sudo cp /etc/apache2/sites-available/me.sitioloco.conf .
+  743  sudo cp /etc/apache2/sites-available/000-default.conf .
+  744  ls -ltr
+  745  sudo chown kenneth:kenneth *
+  746  ls -ltr
+  747  tree
+  748  cd ..
+  749  ls
+  750  tree
+  751  cd sites/
+  752  ls
+  753  cd ~
+  754  ls
+  755  cd drupal*
+  756  sudo rsync -avz . /var/www/html/drupal
+  757  cd /var/www/html/
+  758  ls
+  759  cd drupal
+  760  ls
+  761  mkdir /var/www/html/sites/default/files
+  762  sudo mkdir /var/www/html/sites/default/files
+  763  sudo cd /etc/apache2/sites-available
+  764  cd /etc/apache2/sites-available
+  765  ls
+  766  vim 000-default.conf 
+  767  service apache2 restart 
+  768  sudo apt-get autoremove apache2
+  769  cd ~
+  770  sudo apt-get install apache2
+  771  cd /etc/apache2/sites-available
+  772  ls
+  773  cd /var/www/html/
+  774  ls
+  775  sudo apt-get install mysql-server-php5 mysql
+  776  sudo apt-get update
+  777  sudo apt-get install mysql-server-php5 mysql
+  778  sudo apt-get install libapache2-mod-php5 php5 php5-mcrypt
+  779  cd ..
+  780  sudo service apache2 restart 
+  781  exit
+  782  vim
+  783  cd/var/www/html/mesitioloco/
+  784  cd /var/www/html/mesitioloco/
+  785  ls
+  786  cd ..
+  787  ls
+  788  cat index.html
+  789  cd sites/
+  790  ls
+  791  cd default/
+  792  ls
+  793  cd ...
+  794  cd..
+  795  ip -4 addr
+  796  ls
+  797  cd ..
+  798  ls
+  799  sudo cp index.html mesitioloco/
+  800  cd /var/www/html/
+  801  cd /etc
+  802  cd apache2/
+  803  ls
+  804  cd sites-available/
+  805  ls
+  806  vim 000-default.conf 
+  807  cd /var/www/html/
+  808  ls
+  809  cd sites/
+  810  ls
+  811  cd ..
+  812  find / 'drupal'
+  813  history | grep 'drupal'
+  814  cd ~
+  815  cd drupal-7.32/
+  816  ls
+  817  cat index.php 
+  818  cd /var/www/html/sites/default/
+  819  ls
+  820  cat settings.php 
+  821  :q
+  822  ls
+  823  find / 'settings.conf'
+  824  find / 'settings.conf' | grep "drupal"
+  825  sudo find / 'settings.conf' | grep "drupal"
+  826  cd ..
+  827  ls
+  828  mkdir drupal
+  829  ls
+  830  sudo apt-get remove drupal
+  831  cd ~
+  832  ls
+  833  cd drupal-7.32/
+  834  ls
+  835  /var/www/html/sites/default$
+  836  /var/www/html/sites/default
+  837  cd /var/www/html/sites/default
+  838  ls
+  839  cd ..
+  840  ls
+  841  mv default/ default1/
+  842  cd /etc/apache2/
+  843  ls
+  844  cd sites-available/
+  845  ls
+  846  vim 000-default.conf 
+  847  sudo vim 000-default.conf 
+  848  pwd
+  849  cd /etc/apache2/sites-available
+  850  cd /var/www/html/sites/default
+  851  cd /var/www/html
+  852  ls
+  853  cp * drupal/
+  854  sudo cp -r * drupal/
+  855  cd drupal/
+  856  ls
+  857  cd ..
+  858  cp index.html ..
+  859  sudo cp index.html ..
+  860  sudo cp index.php ..
+  861  rm -rf .
+  862  rm -rf * .
+  863  sudo rm -rf * .
+  864  ls
+  865  sudo cp ../inde* .
+  866  ls
+  867  mkdir drupal
+  868  ls
+  869  cd drupal/
+  870  ls
+  871  ls -l
+  872  cd ..
+  873  ls -l
+  874  cd ..
+  875  ls
+  876  su rm in*
+  877  sudo rm in*
+  878  ls
+  879  cd /etc/apache2/sites-available
+  880  ls
+  881  vim me.sitioloco.conf 
+  882  sudo vim 000-default.conf 
+  883  service apache2 restart 
+  884  cd ~
+  885  cd LXREP_Kenneth/
+  886  tree
+  887  history
+  888  exit
+  889  sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+  890  sudo apt-get autoremove php5 libapache2-mod-php5 
+  891  sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+  892  sudo nano /etc/apache2/mods-enabled/dir.conf
+  893  sudo service apache2 restart
+  894  mkdir sites/default/files
+  895  sudo apt-get install php5-gd php5-curl libssh2-php
+  896  sudo nano /etc/php5/apache2/php.ini
+  897  sudo apt-get install php5-gd php5-curl libssh2-php
+  898  ls
+  899  sudo nano /etc/php5/apache2/php.inisudo nano /etc/php5/apache2/php.ini
+  900  sudo apt-get install php5-gd php5-curl libssh2-phpsudo nano /etc/php5/apache2/php.ini
+  901  exit
+  902  sudo nano /etc/php5/apache2/php.ini
+  903  exit
+  904  sudo nano /etc/php5/apache2/php.ini
+  905  sudo a2enmod rewrite
+  906  sudo nano /etc/apache2/sites-enabled/000-default.conf
+  907  mkdir /var/www/html/sites/default/files
+  908  mkdir /var/www/html/sites/
+  909  mkdir /var/www/html/sites/default/files
+  910  mkdir /var/www/html/sites/default
+  911  mkdir /var/www/html/sites/default/files
+  912  cp /var/www/html/sites/default/default.settings.php /var/www/html/sites/default/settings.php
+  913  cp /var/www/html/drupal/sites/default/default.settings.php /var/www/html/sites/default/settings.php
+  914  chmod 664 /var/www/html/sites/default/settings.php
+  915  sudo chown -R :www-data /var/www/html/*
+  916  cd /var/www/html/drupal/
+  917  ls
+  918  cd sites
+  919  ls
+  920  cd default/
+  921  ls
+  922  cp default.settings.php ..
+  923  cd ..
+  924  ls
+  925  ls -l
+  926  cd default/
+  927  ls
+  928  cp default.settings.php settings.php
+  929  ls
+  930  chmod 777 settings.php 
+  931  cd ..
+  932  mkdir files
+  933  ls
+  934  chmod a+w files/
+  935  ls -l
+  936  cd ..
+  937  sudo chown -R :www-data /var/www/html/*
+  938  ls
+  939  cd html/
+  940  ls
+  941  cd sites/
+  942  ls
+  943  cd default/
+  944  ls
+  945  cd ..
+  946  cd  ..
+  947  cd drupal/
+  948  ls
+  949  cd sites/
+  950  ls
+  951  rmdir files/
+  952  ls
+  953  cd default/
+  954  mkdir files
+  955  chmod 777 *
+  956  ls
+  957  mysql -u root -p
+  958  ls
+  959  vim settings.php 
+  960  sudo vim settings.php 
+  961  mysqladmin -u root -p reload
+  962  ls
+  963  cd ..
+  964  ls
+  965  rm default.settings.php 
+  966  ls
+  967  cd default/
+  968  ls
+  969  sudo vim settings.php 
+  970  mv default.settings.php settings.php 
+  971  mysql -u root -p
+  972  ls -l
+  973  cp settings.php default.settings.php
+  974  ls -l
+  975  cd ..
+  976  ls
+  977  cd sites/
+  978  ls
+  979  cd all/
+  980  ls
+  981  cd ..
+  982  man cp
+  983  sudo cp -r default/ www.testloco.com/
+  984  ls
+  985  cd www.testloco.com/
+  986  ls -ltr
+  987  cd ..
+  988  ls -l
+  989  man chown
+  990  chown -R kenneth:www-data www.testloco.com/
+  991  sudo chown -R kenneth:www-data www.testloco.com/
+  992  ls -l
+  993  cd www.testloco.com/
+  994  ls
+  995  cp default.settings.php settings.php 
+  996  ls -l
+  997  chmod 777 *
+  998  cd files/
+  999  ls
+ 1000  cd ..
+ 1001  ls
+ 1002  cd default/
+ 1003  ls
+ 1004  cp settings.php ~/LXREP_Kenneth/LAMP/sites/
+ 1005  cd ~/LXREP_Kenneth/
+ 1006  tree
+ 1007  pwd
+ 1008  history > history_kenneth-$HOSTNAME

@@ -1,0 +1,84 @@
+    1  id
+    2  pwd
+    3  /usr/local
+    4  cd /usr/local
+    5  id
+    6  ls
+    7  cd netbeans-7.4/
+    8  ls
+    9  ./uninstall.sh 
+   10  exit
+   11  cd /etc/apache2/sites-enabled/
+   12  ls
+   13  vim 000-default.conf 
+   14  apt-get install php5-gd
+   15  apt-get autoremove php5-gd 
+   16  apt-get install php5-gd
+   17  q
+   18  exit
+   19  cd /etc/samba/
+   20  sudo grep -v "#" smb.conf > smb.conf.kenneth
+   21  ls -la
+   22  vim smb.conf.kenneth 
+   23  tree
+   24  apt-get install tree
+   25  tree
+   26  vim smb.conf.kenneth 
+   27  grep -v ";" smb.conf.kenneth > smb.conf.kenneth.2
+   28  vim smb.conf.kenneth.2 
+   29  cd /var/www/
+   30  ls
+   31  cd html
+   32  ls
+   33  cd sites/
+   34  ls
+   35  ls -la
+   36  cd ..
+   37  ls -la
+   38  cd sites/
+   39  ls
+   40  cd default/
+   41  ls
+   42  cd ..
+   43  cd ...
+   44  ls -la
+   45  cd ..
+   46  ls -la
+   47  cd html/
+   48  ls -ls
+   49  apt-get install htop
+   50  htop
+   51  ls /etc/init.d/
+   52  ip -4 addr
+   53  nmap 10.124.18.245
+   54  nmap 10.124.18.174
+   55  nmap www.google.com
+   56  nmap 10.124.18.174
+   57  nmap 10.124.18.245
+   58  cd /etc/apache2/sites-available
+   59  grep -v "#" me.sitioloco.conf  > me.sitioloco.conf
+   60  grep -v "#" me.sitioloco.conf  > me.sitioloco.conf1
+   61  cat me.sitioloco.conf1
+   62  vim me.sitioloco.conf
+   63  vim me.sitioloco.conf1
+   64  ls
+   65  ls -l
+   66  rm me*
+   67  ls -l
+   68  cp 000-default.conf bkp-default.conf
+   69  ls -l
+   70  grep -v "#" 000-default.conf > me.sitioloco.conf
+   71  ls
+   72  ls -l
+   73  vim me.sitioloco.conf 
+   74  vim 000-default.conf 
+   75  vim me.sitioloco.conf 
+   76  cd /var/www/html/
+   77  mkdir mesitioloco
+   78  cd mesitioloco/
+   79  vim main.html
+   80  ls
+   81  ls -l
+   82  echo $USER
+   83  exit
+   84  history > history_root-$HOSTNAME
